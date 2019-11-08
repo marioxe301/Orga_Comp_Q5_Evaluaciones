@@ -107,39 +107,39 @@ main:
 
     ;# x
     ori $a3,$zero,1
-    lb $a3,0($sp)
+    sb $a3,0($sp)
     ;#rellenar con 0
-    lb $zero,1($sp)
-    lb $zero,2($sp)
-    lb $zero,3($sp)
+    sb $zero,1($sp)
+    sb $zero,2($sp)
+    sb $zero,3($sp)
 
     ;#guardar element
     ori $a3,$zero, 5
-    lw $a3, 4($sp)
+    sw $a3, 4($sp)
 
      ;# x
     ori $a3,$zero,1
-    lb $a3,0($sp)
+    sb $a3,0($sp)
     ;#rellenar con 0
-    lb $zero,1($sp)
-    lb $zero,2($sp)
-    lb $zero,3($sp)
+    sb $zero,1($sp)
+    sb $zero,2($sp)
+    sb $zero,3($sp)
 
     ;#guardar element
     ori $a3,$zero, 3
-    lw $a3, 12($sp)
+    sw $a3, 12($sp)
 
      ;# x
     ori $a3,$zero,1
-    lb $a3,0($sp)
+    sb $a3,0($sp)
     ;#rellenar con 0
-    lb $zero,1($sp)
-    lb $zero,2($sp)
-    lb $zero,3($sp)
+    sb $zero,1($sp)
+    sb $zero,2($sp)
+    sb $zero,3($sp)
 
     ;#guardar element
     ori $a3,$zero, 1
-    lw $a3, 20($sp)
+    sw $a3, 20($sp)
 
     #show memory 4($a0)
     #show memory 12($a0)
